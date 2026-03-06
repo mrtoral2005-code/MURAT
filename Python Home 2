@@ -1,0 +1,27 @@
+exam1 = int(input("Enter Exam 1 score (0-100): "))
+exam2 = int(input("Enter Exam 2 score (0-100): "))
+project_exam = int(input("Enter Project Exam score (0-100): "))
+
+average = (exam1 + exam2 + project_exam) / 3
+print(f"Average: {average:.2f}")
+
+if average < 0 or average > 100:
+    print("Invalid input! Scores must be between 0 and 100.")
+elif average >= 92:
+    print("Letter Grade A")
+elif average >= 86:
+    print("Letter Grade: A-")
+elif average >= 79:
+    print("Letter Grade: B+")
+elif average >= 75:
+    print("Letter Grade: B")
+elif average >= 67:
+    print("Letter Grade: B-")
+elif average >= 63:
+    print("Letter Grade: C+")
+elif average >= 58:
+    print("Letter Grade: C ")
+elif average >= 51:
+    print("Letter Grade: D")
+else:
+    print("Letter Grade: F")
