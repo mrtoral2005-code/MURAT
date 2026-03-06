@@ -1,0 +1,7 @@
+password = "5647"
+entered = input("Password: ")
+
+while entered != password:
+    entered = input("Wrong! Password Again: ")
+
+print("Login success!")
