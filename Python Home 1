@@ -1,0 +1,14 @@
+total_average = float(input("Enter your total average (0-100): "))
+
+if total_average < 0 or total_average > 100:
+    print("Invalid total average! Total average must be between 0 and 100.")
+elif total_average >= 85:
+    print("Grade: A")
+elif total_average >= 70:
+    print("Grade: B")
+elif total_average >= 55:
+    print("Grade: C")
+elif total_average >= 40:
+    print("Grade: D")
+else: 
+    print("Grade: F")
