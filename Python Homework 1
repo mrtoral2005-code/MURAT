@@ -1,0 +1,30 @@
+print("Welcome to the Python Store!")
+
+# First product
+product1_name = input("Enter the name of the first item: ")
+product1_price = float(input("Enter the price of the first item: $"))
+product1_qty = int(input("Enter the quantity of the first item: "))
+
+# Second product
+product2_name = input("Enter the name of the second item: ")
+product2_price = float(input("Enter the price of the second item: $"))
+product2_qty = int(input("Enter the quantity of the second item: "))
+
+# Calculations
+product1_subtotal = product1_price * product1_qty
+product2_subtotal = product2_price * product2_qty
+
+total_subtotal = product1_subtotal + product2_subtotal
+tax = total_subtotal * 0.10
+final_total = total_subtotal + tax
+
+# Receipt output
+print("---")
+print("YOUR RECEIPT")
+print(f"{product1_name} x {product1_qty} = ${product1_subtotal:.2f}")
+print(f"{product2_name} x {product2_qty} = ${product2_subtotal:.2f}")
+print("---")
+print(f"Total Subtotal: ${total_subtotal:.2f}")
+print(f"Tax (10%): ${tax:.2f}")
+print(f"Final Total: ${final_total:.2f}")
+print("Thank you for shopping with us!")
