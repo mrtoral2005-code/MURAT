@@ -1,0 +1,14 @@
+total_delivered = 0
+house_number = 0
+
+while house_number < 24:
+    house_number += 1
+
+    if house_number == 2 or house_number == 11 or house_number == 17 or house_number == 23:
+        print("House", house_number, "is empty. Skipping!")
+        continue
+
+    total_delivered += 1
+    print("Delivered a package to House", house_number)
+
+print("Total packages delivered today:", total_delivered)
