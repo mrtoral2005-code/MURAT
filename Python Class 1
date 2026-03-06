@@ -1,0 +1,12 @@
+num_1 = int(input("Enter the first number: "))
+num_2 = int(input("Enter the second number: "))
+
+print(f"num_1 is {num_1}")
+print(f"num_2 is {num_2}")
+print(f"num_1 + num_2 = {num_1 + num_2}")
+print(f"num_1 - num_2 = {num_1 - num_2}")
+print(f"num_1 / num_2 = {num_1 // num_2}")
+print(f"num_1 * num_2 = {num_1 * num_2}")
+print(f"num_1 ** num_2 = {num_1 ** num_2}")
+average = (num_1 + num_2) // 2
+print("average total:", average)
