@@ -1,0 +1,22 @@
+midterm = int(input("Enter Midterm Score (0-100): "))
+final = int(input("Enter Final Score (0-100): "))
+homework_quiz = float(input("Enter Homework + Quiz Score (0-100): "))
+
+weighted = midterm * 0.40 + final * 0.50 + homework_quiz * 0.10
+print(f"Weighted Score: {weighted:.2f}")
+
+if final < 45:
+    print("Result: FAIL")
+else:
+    print("Result: PASS")
+
+if weighted >= 87:
+    print("Letter Grade: A")
+elif weighted >= 68:
+    print("Letter Grade: B")
+elif weighted >= 59:
+    print("Letter Grade: C")
+elif weighted >= 46:
+    print("Letter Grade: D")
+else:
+    print("Letter Grade: 'F' Take The Make-Up Exam")
