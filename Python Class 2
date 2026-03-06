@@ -1,0 +1,5 @@
+x = 4 # assing
+if x == 5: #check
+ print("True")
+else:
+ print("False")
