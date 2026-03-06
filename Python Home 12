@@ -1,0 +1,12 @@
+import random
+
+number1 = random.randint(1,20)
+number2 = random.randint(1,20)
+correct_answer = number1 + number2
+
+answer = int(input(f"What is {number1} + {number2} = "))
+
+while answer != correct_answer:
+    answer = int(input(f"Wrong! Try again please. What is {number1} + {number2} = "))
+
+print("Correct! Well done bro!!!!")
