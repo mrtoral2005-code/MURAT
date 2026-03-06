@@ -1,0 +1,14 @@
+import random
+
+shark_distance = random.randint(1,100)
+print("Guess how many kilometeres the shark swam today (between 1 and 100): ")
+
+while True:
+    guess = float(input("Enter your guess (km): "))
+    if guess == shark_distance:
+        print("Spot on! The shark swam exactly", shark_distance, "km.")
+        break
+    elif guess > shark_distance:
+        print("Too high! Please try a lower number.")
+    else:
+        print("Too low! Please try a higher number.")
