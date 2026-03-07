@@ -1,0 +1,10 @@
+N = int(input("Enter limit number (N): "))
+counter = 1
+total_odds = 0
+
+while counter <= N:
+    if counter %2 != 0:
+        total_odds += counter
+    counter += 1
+
+print(f"Sum of odd numbers: {total_odds}")
