@@ -1,0 +1,28 @@
+def isPrime(number):
+    divisior = 2
+    while divisior <= number / 2:
+        if number % divisior == 0:
+            return False
+        divisior += 1
+    
+    return True
+
+def printPrimeNumbers (numberOfPrimes):
+    NUMBER_OF_PRIMES_PER_LINE = 10
+    count = 0
+    number = 2
+    while count < numberOfPrimes:
+        if isPrime(number):
+            count += 1
+
+            print(number, end = " ")
+            if count % NUMBER_OF_PRIMES_PER_LINE == 0:
+                print()
+
+        number += 1
+
+def main():
+    print("The first 50 prime numbers area")
+    printPrimeNumbers(50)
+
+main()
