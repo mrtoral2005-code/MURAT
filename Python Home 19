@@ -1,0 +1,5 @@
+i = 0
+first = [10, 20, 30, 40]
+while i < len (first):
+    print(first[i])
+    i += 1
