@@ -34,6 +34,10 @@ fruits.insert(2, "strawberry")
 print(fruits)
 
 fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+del fruits[4]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
 fruits.remove("pear")
 print(fruits)
 
