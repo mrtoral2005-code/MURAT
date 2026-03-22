@@ -1,0 +1,42 @@
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits[2] = "strawberry"
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits[0:3] = ["strawberry", "melon", "grape"]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits[0:3] = ["strawberry"]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits[0:3] = []
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits[0:0] = ["strawberry", "melon", "grape"]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+print(len(fruits))
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits = fruits + ["kiwi"]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.append("kiwi")
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.insert(2, "strawberry")
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.remove("pear")
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.pop(2)
+print(fruits)   
