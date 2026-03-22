@@ -1,0 +1,16 @@
+list1 = [2, 3]
+list2 = [1, 9]
+list3 = list1 + list2
+print(list3)
+
+list4 = 3 * list1 or list1 * 3
+print(list4)
+
+#list4 = 2 * list2 or list2 * 2
+#print(list4)
+
+list5 = list4 [2 : 4]
+print(list5)
+
+list5 = list4 [10 : 0 : -2]
+print(list5)
