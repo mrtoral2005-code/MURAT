@@ -34,13 +34,45 @@ fruits.insert(2, "strawberry")
 print(fruits)
 
 fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
-del fruits[4]
-print(fruits)
-
-fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
 fruits.remove("pear")
 print(fruits)
 
 fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
 fruits.pop(2)
 print(fruits)   
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+del fruits[4]
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+vegetables = ["carrot", "onion", "pepper", "potato", "cucumber", "tomato"]
+fruits.extend(vegetables)
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.sort()
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.sort(reverse=True)
+print(fruits)   
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.reverse()        
+print(fruits)   
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+fruits.clear()
+print(fruits)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+x = fruits.copy()
+print(x)
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+ind = fruits.index("kiwi")
+print(ind)  
+
+fruits = ["apple", "orange", "pear", "kiwi", "banana", "cherry"]
+print(fruits.count("kiwi"))
