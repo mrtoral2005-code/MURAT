@@ -1,0 +1,7 @@
+t1 = (5,)
+t2 = (5)
+t = (10, 20, 30, 40)
+print(t1)
+print(t2)
+print(t[0])
+print(t[-1])
