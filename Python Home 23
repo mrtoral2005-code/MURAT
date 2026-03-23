@@ -1,0 +1,12 @@
+s = input("Enter 10 numbers separated by space on one line")
+items = s.split()   
+list1 = [float(a) for a in items]
+print(list1)
+
+lst = [1, 2, 3, 4, 5]
+shifted = lst[3:] + lst[:3]
+print(shifted)
+
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+monthNumber = int(input("Enter month number (1 to 12): "))
+print("The month is", months[monthNumber - 1])
