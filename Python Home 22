@@ -1,0 +1,12 @@
+items = "Welcome to the UK".split()
+print(items)
+
+items1 = "34#13#78#45".split("#")
+print(items1)   
+
+x = "Fenerbahçe Şampiyon!"
+print(x.strip())
+
+x = "Fenerbahçe Şampiyon!"
+y = x.replace("Şampiyon", "Cumhuriyeti")
+print(y)
