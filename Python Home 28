@@ -1,0 +1,5 @@
+import random
+number1 = random.randint(0, 9)
+number2 = random.randint(0, 9)  
+answer = int(input(f"{number1} + {number2} = "))
+print(answer == number1 + number2)
