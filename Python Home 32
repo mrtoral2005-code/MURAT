@@ -1,0 +1,12 @@
+status = int(input("Enter status: "))
+match status:
+    case 0:
+        print("single")
+    case 1:
+        print("married jointly")
+    case 2: 
+        print("married separately")
+    case 3:
+        print("head of household")
+    case _:
+        print("Error")
