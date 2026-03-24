@@ -1,0 +1,6 @@
+number1 = int(input("Enter an integer: "))
+number2 = int(input("Enter another integer: "))
+if number1 % 3 == 0 and number2 % 2 == 1:
+    print("Freezing")
+else: 
+    print("Amazing")
