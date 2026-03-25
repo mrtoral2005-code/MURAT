@@ -1,0 +1,7 @@
+cities = {"06": "Ankara", "16": "Bursa", "35": "Izmir", 34: "Istanbul"}
+print(cities)
+print(cities["06"])
+print(cities[34])
+print(cities.get("16"))
+print(cities.get(55, "Not Found"))
+print(cities.get("35", "Not Found"))
