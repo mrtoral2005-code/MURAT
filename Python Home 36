@@ -1,0 +1,11 @@
+cars = {10: "BMW", 20: "Mercedes", 30: "Audi", 40: "Tesla"}
+print(cars)
+print("type of cars:-->", type(cars))
+print("type of cars.items():-->", type(cars.items()))
+a = list(cars.items())
+print("type of a:-->", type(a))
+print(a[0])
+print(type(a[0]))
+print(a[0][1])
+print(type(a[0][1]))
+print(list(cars.items())[3][1])
