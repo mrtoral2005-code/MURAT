@@ -1,0 +1,5 @@
+dictionary = {}
+dictionary = {"john": 40, "peter": 45}
+List = {100: "CENG102", 201: "CENG204", 204: "OS"}
+print(dictionary)
+print(List)
