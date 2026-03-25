@@ -1,0 +1,5 @@
+user = {"id": 379, "name": "Murat", "role": "Admin"}
+print("user:", user)
+print("keys:", user.keys())
+print("values:", user.values())
+print("items:", user.items())
