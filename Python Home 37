@@ -1,0 +1,12 @@
+def sumRange(num1, num2):
+    result = 0
+    for i in range(num1, num2 + 1):
+        result += i
+    return result
+
+def main():
+    print("Sum from 1 to 12 is", sumRange(1, 12))
+    print("Sum from 20 to 37 is", sumRange(20, 37))
+    print("Sum from 35 to 49 is", sumRange(35, 49))
+
+main()
