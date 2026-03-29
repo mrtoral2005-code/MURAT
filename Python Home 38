@@ -1,0 +1,14 @@
+def maxNumber(number1, number3):
+    if number3 > number1:
+           result = number3 
+    else: 
+           result = number1
+    return result
+
+def main():
+      i = 4
+      j = 6
+      k = maxNumber(i, j)
+      print("The maximum between", i, "and", j, "is", k)
+
+main()
