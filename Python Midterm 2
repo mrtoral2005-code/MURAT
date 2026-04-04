@@ -1,0 +1,10 @@
+pin = 1234
+entered_pin = 0
+
+while entered_pin != pin:
+    entered_pin = int(input("Enter your PIN: "))
+
+    if entered_pin == pin:
+        print("Welcome!")
+    else:
+        print("Incorrect PIN")
