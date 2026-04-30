@@ -1,0 +1,13 @@
+from safagweqgewrg import Person
+
+p1 = Person ("mudu", 3)
+print(p1)
+print(p1.name, "=" ,p1.age)
+
+p2 = Person("Murat", 10)
+print(p2)
+print(p2.name, "=" ,p2.age)
+
+print(p2.getInfo())
+
+#safagweqgewrg random yazıldı
