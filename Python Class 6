@@ -1,0 +1,33 @@
+class Person:
+    def __init__ (self, pName, pAge):
+        self.__name = pName
+        self.age = pAge
+
+    def getInfo(self):
+        return self.__name + " " + str(self.age)
+
+    def __str__ (self):
+        return self.__name.upper() + " " + str(self.age)
+    
+    def getName(self):
+        return self.__name
+
+from Person import Person
+
+p1 = Person ("mudu", 3)
+print(p1)
+print(p1.getName())
+
+p2 = Person("Murat", 10)
+print(p2)
+#print(p2.name, "=" ,p2.age)
+
+print(p2)
+
+name_inp = input("Please enter your name: ")
+age_inp = input("Please enter your age: ")
+age_inp = int(age_inp)
+name_inp = str(name_inp)
+
+p3 = Person(name_inp, age_inp)
+print(p3)
