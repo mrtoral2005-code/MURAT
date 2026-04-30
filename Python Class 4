@@ -1,0 +1,17 @@
+class Person:
+    def __init__ (self, pName, pAge):
+        self.name = pName
+        self.age = pAge
+
+    def getInfo(self):
+        return self.name + " " + str(self.age)
+
+p1 = Person ("mudu", 3)
+print(p1)
+print(p1.name, "=" ,p1.age)
+
+p2 = Person("Murat", 10)
+print(p2)
+print(p2.name, "=" ,p2.age)
+
+print(p2.getInfo())
